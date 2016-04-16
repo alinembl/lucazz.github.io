@@ -1,6 +1,5 @@
 <head>
   <meta charset="UTF-8">
-  <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta name="google-site-verification" content="CuRwIbDP2wUjusIt3KgN5XY-ZSgkv4YNPv7szOVSouc" />
 
   <!-- Enable responsiveness on mobile devices-->
@@ -9,30 +8,30 @@
   <!-- Some stupid SEO stuff -->
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   <meta http-equiv="content-type" content="text/html;charset=UTF-8">
-  <link rel="author" href="https://twitter.com/mikemackintosh"/>
+  <link rel="author" href="https://twitter.com/lucazz"/>
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@mikemackintosh">
-  <meta name="twitter:creator" content="@mikemackintosh">
+  <meta name="twitter:site" content="@lucazz">
+  <meta name="twitter:creator" content="@lucazz">
   <meta property="og:type" content="article" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-  <meta property="og:site_name" content="Mike Mackintosh" />
+  <meta property="og:site_name" content="Lucas do Amaral Saboya" />
 
   <!-- title stuff -->
   {% if page.title == "Home" %}
-  <meta name="twitter:title" content="{{ site.title }}">  
-  <meta name="og:title" content="{{ site.title }}">  
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="og:title" content="{{ site.title }}">
   <title>{{ site.title }} &middot; {{ site.tagline }}</title>
   {% else %}
-  <meta name="twitter:title" content="{{ page.title }}">  
-  <meta name="og:title" content="{{ page.title }}">  
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="og:title" content="{{ page.title }}">
   <title>{{ page.title }} &middot; {{ site.title }}</title>
   {% endif %}
 
-  <!-- Descripti0nz -->
+  <!-- Description -->
   {% if page.title == "Home" %}
-  <meta name="description" content="Mike Mackintosh is a Security professional with several years experience, an avid blogger, and a family man.">
-  <meta name="twitter:description" content="Mike Mackintosh is a Security professional with several years experience, an avid blogger, and a family man.">
-  <meta name="og:description" content="Mike Mackintosh is a Security professional with several years experience, an avid blogger, and a family man.">
+  <meta name="description" content="Lucas do Amaral Saboya is a site reliability engineer with several years experience, a researcher and is always learning new stuff">
+  <meta name="twitter:description" content="Lucas do Amaral Saboya is a site reliability engineer with several years experience, a researcher and is always learning new stuff">
+  <meta name="og:description" content="Lucas do Amaral Saboya is a site reliability engineer with several years experience, a researcher and is always learning new stuff">
   {% else %}
   <meta name="description" content="{{ page.content | strip_html | truncatewords: 50 }}">
   <meta name="twitter:description" content="{{ page.content | strip_html | truncatewords: 50 }}">
@@ -61,5 +60,5 @@
   <!-- Load jQuery -->
   <script type="text/javascript" src="/public/jquery/jquery.min.js"></script>
 
-  <link href="{{ site.baseurl }}rss.xml" type="application/rss+xml" rel="alternate" title="MikeMackintosh RSS Feed">  
+  <link href="{{ site.baseurl }}rss.xml" type="application/rss+xml" rel="alternate" title="Blog RSS Feed">
 </head>
