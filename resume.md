@@ -1,90 +1,85 @@
 ---
 layout: page
 title : "Resume"
-header : "Mike Mackintosh"
+header : "Lucas do Amaral Saboya"
 group: navigation
 redirect_from:
  - /resume/
 ---
 
-# Mike Mackintosh
+# Lucas do Amaral Saboya
 ==================
 
-    mike@titanosx.com  |   Cell: 973.464.9026    |  Twitter: @mikemackintosh 
-    Belle Mead, NJ     | Web: mikemackintosh.com |   GitHub: mikemackintosh
+    Lucas do Amaral Saboya  |   Cell: +5585981306408    |  Twitter: @lucazz
+    Fortaleza, BR    | Web: lucazz.me |   GitHub: lucazz
 
 ## Skills
 
   * Incident Response and System Hardening on Mac OS X, CentOS and Ubuntu/Debian
-  * Experience coding and developing in Ruby, Python and PHP
   * Several years of daily experience with nginx and Apache
-  * Reverse engineering malware and debugging segfaults
-  * Experience with OpenSSL both in the CLI and Ruby
-  * Creating bytecode iptables rules
+
+## Education
+**Telecommunications Engineering Bachelor Degree** Federal Institute of Education, Science and Technology of Ceará - IFCE- Fortaleza, Brazil
+**Technology in Telematics** Faculdade Estácio de Sá - Fortaleza, Brazil
 
 ## Experience
 
-**Shutterstock** - New York, New York - World Leading Stock Content Provider    
-09/2013 - present,  **Security Engineering Lead**
+**HE:labs** - Rio de Janeiro, RJ
+01/2016 - present, Site Reliability Engineering
+ * Building CI and CD pipelines
+ * Designing Amazon Web Services environments
+ * Writting automation in general
 
- * Responsible for the creation and growth of the security team as a whole by managing, facilitating and prioritizing all aspects of security including application, systems, networking, information and corporate as well as physical office security for all company locations
- * Assess security posture of all Shutterstock brands including Shutterstock, Offset, WebDam, Skillfeed, BigStockPhoto, Rex and Premium Beat
- * Continually work with new security vendors to improve security profile of the company
- * Lead incident response from intrusion detection to patching for situations like Heartbleed, Shellshock, Ghost and SChannel vulnerabilities
- * Design and deploy DDoS-mitigation using both on and off-premise devices and upstream scrubbing networks
- * Routine monitoring and improvements with regard to the public reputation of all Shutterstock brands, including DNS and IP space
- * Design and implement 2-factor authentication for corporate VPN systems
- * Create and enforce work-flows and policies for new vendor profiling and on-boarding
- * Establish and maintain Firewall Policies and approve policy modifications
- * Explore new methods to create a defensive infrastructure with offensive tactics
- * Architect, code and deploy self-defense system which helps defend against brute-force and dictionary attacks against customer and employee accounts
- * Investigate and identify compromised employee and customer accounts
- * Complete quarterly PCI scans, annual self-assessment questionnaires, and serve as key member in SOX compliance
- * Run public responsible disclosure and internal bug bounty programs
- * Provide AppSec training to developers and QA test engineers
- * Spearhead anti-virus and configuration management roll-outs for organization
- * Improve security posture of sites and services by enhancing utilities like Puppet and Chef
- * Provide professional and technical mentoring to teams and individuals
- * Oversee the design and deployment of closed-circuit security camera systems
- * Work with landlords to ensure data center standards compliance
+**iFactory Solutions** - Fortaleza, CE
+2015 - 2016, Support Engineer
+ * Integrating the Amazon Web Servervice Managed Services Team
+ * OpenText CEM Customer Support subcontractor, responsible for drafting support, deployment and maintenance best practices and automation of cloud hosted services
 
+**Instituto Federal de Educação, Ciência e Tecnologia do Ceará - IFCE** - Fortaleza, CE
+2015 - 2015,Computer Networks and Security Analyst
+ * Integrating the Computer Security Incident Response Team - CSIRT;
+ * Mitigating IFCE's network security issues;
+ * Managing the Rectory firewalls;
+ * Prividing level II networking and security support to other campuses tech staff;
+ * Supervisioning IFCE's IPv6 networks deployment;
+2012 - 2014, Support Analyst
+* Managing IFCE's Rectory and all campuses local network and Linux Servers
+2012 - 2014, DevOps Engineer
+* Helping and providing technical support on IT systems deploy in all campuses and Rectory.
+2009 - 2012, Analista de Suporte Junior
+ * Managing IFCE's Fortaleza Campus, Aldeota Annex and Rectory local network and Linux Servers.
+2008 - 2009, Webmaster
+ * Maintaining the website up-to-date.
+**Telecomunication Engineering Academic Centre** - Fortaleza, CE
+2013 - 2014, Diretor de Estudos, Ensino, Pesquisa e Inovação
+ * Leading a team responsible for management and maintenance of extension courses, workshops, study groups, teaching promotion and academic research within telecommunications engineering student's community.
+2012 - 2013, Advisor
+ * Developing projects on the Academic Events and Studies, Learning, Research and Inovations Vice Presidency
 
-**Verizon Wireless** - Branchburg, New Jersey - Telecommunications    
-05/2012 - 09/2013,  **Principle Engineer**, Security Engineering    
-05/2011 - 05/2012,  **Member of Technical Staff**, Security Engineering
+## Technical Experience
+**OS** CentOS, Debian, FreeBSD, FreeNAS, OS X, PfSense, RHEL and Ubuntu
+**OSS** Ansible, Apache, Bacula, Bind, Django, Docker, Git, Iptables, Kernel-Based Virtual Machine, MySQL, NGiNX, Packer, PfSense, Python, PostgreSQL, qEMU, Rails, Samba, SELinux, Spacewalk, SVN, ViM, VMWare, Xen, Zabbix e Zimbra
+**Languages** HTML5+CSS3, LaTeX, PHP, Python, Shell Script
+**Networking** eBGP, iBGP, NAT, OSPF, Q-in-Q, RIP, Routing, TCP/IP, Traffic Shaping, UPnP, VPN and VLAN
 
- * Manage Network Management Systems and define KPI's
- * Serve on customer advisory board for NMS tools
- * Coded and maintained security dashboard which included configuration management, inventory and auditing
- * Create and manage standards for auditing and compliance
- * Provide deterministic results from performance testing
- * Trial and configure prospective vendor equipment
- * Architect and enforce configuration best practices amongst the team
- * Expand and enhance monitoring and alerting
- * Serve as key technical resource and subject matter expert
- * Collect and archive daily element configurations
- * Detect and respond to network incidents
- * Design, test and publish Methods of Procedures
+## Languages
+ * Brazilian Portuguese, Fluent Native Language
+ * English, Fluent - TOEFL ITP Score: 597
 
-05/2008 - 05/2011,  **Technician-Switch**, Network Repair
-
-  * Support mission critical networks for large enterprise customers
-  * Pioneer support for LTE 
-  * Work closely with upper-management and executives on escalations and incident response
-  * Help improve customer experience by improving network design and configurations
-  * Troubleshoot routing, switching and firewall mis-configuration and outages
-  * Author department training materials and develop curriculum for formalized training classes
-  * Created and maintained department website which included a knowledge base, wiki, data-mining and ticket automation
-  * Participate and drive several large, multi-year projects with many teams and vendors
-
-
-## Noteworthy Side Projects
-
-**TitanOSX** - `https://github.com/TitanOSX/titan`  
-TitanOSX was inspired by the Etsy MIDAS project, but after an almost complete refactoring, I added client transparency. By this, there is a client utility which can be accessed to manage the tool, included monitors, and self-destructing reports. I also created a RESTful interface for online, remote reporting.
-
-**Masterbaker** - `https://github.com/mikemackintosh/masterbaker`  
-Masterbaker was ported from Soloist, one of the simplest ways to manage workstations using Chef. The large improvement of Masterbaker allows organizations to manage both company-wide and user-level run lists independently to give better control over configurations.
-
-**ruby-ipaddress** `https://github.com/bluemonk/ipaddress`    
-I've submitted several pull-requests which have been pulled into master which add support for unsigned 32-bit IP address parsing and `IPv4#to_h` methods. After showing interest in this project, I became a co-maintainer of it to help it grow.
+## Extension Courses
+ * 2015, Jenkins Bootcamp: Fully Automate Builds Through Deployment, 10h - udemy.com
+ * 2015, AWS SysOps Administrator Associate Level, 10h - cloudacademy.com
+ * 2015, Docker and Container Technologies, 5h - cloudacademy.com
+ * 2014, LFS101x Introduction to Linux, 60h - edx.org
+ * 2014, Autonomous Systems Best Practices, 36h - ceptro.br
+ * 2013, Heterogeneous Parallel Programming, 60h - coursera.org
+ * 2013, Usable Security, 18h - coursera.org
+ * 2013, IPv6 basics w/ Emphasis on Network Services, 32h - ceptro.br
+ * 2013, Power Searching with Google - Google
+ * 2013, Python For Zombies, 40h - PyCursos
+ * 2013, Malicious Software and its Underground Economy: Two Sides to Every Story, 16h - Royal Holloway University of London
+ * 2012, Digital Image Processin, 15h - IFCE
+ * 2012, Agile project management with SCRUM, 15h - IFCE
+ * 2012, Optical fibers and Optical fibers Fusion – IFCE, 4h+4h - IFCE
+ * 2011, Linux Network Servers, EaD - 4linux
+ * 2010, Linux System Administrator, EaD - 4linux
