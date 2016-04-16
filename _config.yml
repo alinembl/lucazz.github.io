@@ -2,7 +2,8 @@
 permalink: /:title
 production_url : https://www.mikemackintosh.com
 #relative_permalinks: true
-markdown: redcarpet
+#markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 redirects: yes
 exclude: [vendor]
