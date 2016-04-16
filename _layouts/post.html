@@ -1,0 +1,79 @@
+---
+layout: default
+---
+<div class="page-header">
+  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+</div>
+
+<div class="row post-full">
+  <div class="col-md-12">
+    <div class="date">
+      <b><span>{{ page.date | date_to_long_string }}</span></b>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+
+    {% unless page.tags == empty %}
+      <span class="tag_box">
+      Tagged under  
+        {% assign tags_list = page.tags %}
+        {% include tags_list.html %} and others
+      </span>
+    {% endunless %}
+
+    <hr>
+    
+    <div class="row author-info" align="center"> 
+      <img src="//www.gravatar.com/avatar/6fd501f97291bd8015362d6d0ce59bfd.png" class="img-circle" alt="Mike Mackintosh">
+      <p>
+        This post was written by Mike Mackintosh, a decorated security professional. 
+      </p>
+    </div>    
+
+    <div class="row" align="center"> 
+      <ul class="pagination">
+        {% if page.previous %}
+          <li class="prev"><a href="{{page.previous.url | prepend: site.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+        {% else %}
+          <li class="prev disabled"><a>&larr; Previous</a></li>
+        {% endif %}
+          <li><a href="/archive">Archive</a></li>
+        {% if page.next %}
+          <li class="next"><a href="{{page.next.url | prepend: site.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+        {% else %}
+          <li class="next disabled"><a>Next &rarr;</a></li>
+        {% endif %}
+      </ul>
+    </div>
+    <hr>
+
+        <div class="banner-well" align="center">
+          <a href="https://www.digitalocean.com/?refcode=0cbacc4d1d87">
+            <div class="digitalocean-banner"></div>
+          </a>
+        </div>
+
+    <hr>
+{% include comments.html %}
+  </div>
+</div>
+ 
+<hr />
+
+{% if site.related_posts %}
+<div class="row" align="center">
+  <h3>Related Posts</h3>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:5 %}
+      <li>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+            <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+          </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+

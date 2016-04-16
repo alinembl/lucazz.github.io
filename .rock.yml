@@ -1,0 +1,38 @@
+env:
+  DEPLOY_REPO: "deployer/mikemackintosh-blog"
+  DEPLOY_SERVER: "git.kn0x.net"
+runtime: ruby21
+run: exec jekyll serve --watch --drafts
+post: exec rake post
+page: exec rake page
+publish: exec rake publish
+build: |
+  {{parent}}
+  jekyll build
+test: echo "No Tests, Bundle"
+bundle: |
+  echo "Disabling Bundle"
+  exit 0 
+  if [ -z $DEPLOY_SERVER ]; then
+    echo -e "\033[01;32mNothing Upstream To Bundle To\033[00m"
+    exit 1;
+  fi
+
+  # Build Time
+  UPSTREAM=git@$DEPLOY_SERVER\:$DEPLOY_REPO\.git
+  BUILD_DATE=$(date +%Y%m%d%H%M%S)
+  REPONAME=$(basename `git rev-parse --show-toplevel`)
+
+  # Add the deploy remote
+  git remote add deployer $UPSTREAM -t master
+  git pull --rebase deployer master
+
+  # Add build code to repo
+  git add -f .
+  git commit -m "Bundling code version ${BUILD_DATE} for deployment"
+
+  echo -e "\033[01;32mBuilding New version: \033[01;37m${BUILD_DATE}\033[00m"
+  git tag -a $BUILD_DATE -m "Build Date: ${BUILD_DATE}"
+  git push -f -u deployer HEAD:master
+  git push --tags deployer
+  echo -e "\033[01;32mPushing New Version: \033[01;37m${BUILD_DATE}\033[00m"

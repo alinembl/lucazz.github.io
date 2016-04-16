@@ -1,0 +1,47 @@
+---
+layout: home
+title: Home
+---
+  <ul class="feed">
+{% for post in paginator.posts %}
+    <li class="posts">
+      <div class="feedable-details">
+        <h3>
+          <a href="{{ post.url }}"><b>{{ post.category }}:</b> {{ post.title }}</a>
+        </h3>
+
+        <div class="meta">
+          <span class="author">by Mike Mackintosh</span>
+          <div class="comments">
+            <i class="fa fa-comment"></i>
+            <a href="{{ post.url }}#disqus_thread"></a>
+          </div>
+          <div class="permalink">
+            <a href="{{ post.url }}"><i class="fa fa-link"></i> Permalink</a>
+          </div>
+        </div>
+        <span class="date pull-right" title="{{ post.date }}">{{ post.date | timeago }}</span>
+      </div>
+    </li>
+{% endfor %}
+  </ul>
+
+{% if paginator.total_pages > 1 %}
+<div class="row" align="center"> 
+  <ul class="pagination" align="center">
+    {% if paginator.previous_page %}
+      <li class="prev"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer</a></li>
+    {% else %}
+      <li class="prev disabled"><span>&laquo; Newer</span></li>
+    {% endif %}
+
+        <li><a href="{{ '/archive.html' | prepend: site.baseurl | replace: '//', '/' }}">Archive</a></li>
+
+    {% if paginator.next_page %}
+      <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older &raquo;</a></li>
+    {% else %}
+      <li class="next disabled"><span>Older &raquo;</span></li>
+    {% endif %}
+  </ul>
+</div>
+{% endif %}

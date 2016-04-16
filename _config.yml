@@ -1,0 +1,25 @@
+# Permalinks
+permalink: /:title
+production_url : https://www.mikemackintosh.com
+#relative_permalinks: true
+markdown: redcarpet
+highlighter: pygments
+redirects: yes
+exclude: [vendor]
+
+# Setup
+title:            Mike Mackintosh
+tagline:          and some of the really cool shit that i've done
+url:              https://www.mikemackintosh.com
+paginate:         20
+baseurl:          /
+author:
+  name:           Mike Mackintosh
+  url:            https://twitter.com/mikemackintosh
+  ghurl:          https://github.com/mikemackintosh
+  email:          m@zyp.io
+ASSET_PATH: /public/
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-timeago
