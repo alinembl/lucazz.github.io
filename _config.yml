@@ -1,25 +1,23 @@
 # Permalinks
 permalink: /:title
-production_url : https://www.mikemackintosh.com
+production_url : https://www.lucazz.me
 #relative_permalinks: true
-#markdown: redcarpet
 markdown: kramdown
-#highlighter: pygments
 highlighter: rouge
 redirects: yes
 exclude: [vendor]
 
 # Setup
-title:            Mike Mackintosh
-tagline:          and some of the really cool shit that i've done
-url:              https://www.mikemackintosh.com
+title:            Lucas do Amaral Saboya
+tagline:          That's my page and blog :-)
+url:              https://www.lucazz.me
 paginate:         20
 baseurl:          /
 author:
-  name:           Mike Mackintosh
-  url:            https://twitter.com/mikemackintosh
-  ghurl:          https://github.com/mikemackintosh
-  email:          m@zyp.io
+  name:           Lucas do Amaral Saboya
+  url:            https://twitter.com/lucazz
+  ghurl:          https://github.com/lucazz
+  email:          lucas.saboya@gmail.com
 ASSET_PATH: /public/
 
 gems:
