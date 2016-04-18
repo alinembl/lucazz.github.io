@@ -16,22 +16,22 @@ layout: default
 
     {% unless page.tags == empty %}
       <span class="tag_box">
-      Tagged under  
+      Tagged under
         {% assign tags_list = page.tags %}
         {% include tags_list.html %} and others
       </span>
     {% endunless %}
 
     <hr>
-    
-    <div class="row author-info" align="center"> 
-      <img src="//www.gravatar.com/avatar/6fd501f97291bd8015362d6d0ce59bfd.png" class="img-circle" alt="Mike Mackintosh">
-      <p>
-        This post was written by Mike Mackintosh, a decorated security professional. 
-      </p>
-    </div>    
 
-    <div class="row" align="center"> 
+    <div class="row author-info" align="center">
+      <img src="https://en.gravatar.com/userimage/20672940/d7ec0f45b9904bab39b61c7364bdf58e.jpg" class="img-circle" alt="Lucas do Amaral Saboya">
+      <p>
+        This post was written by Lucas do Amaral Saboya.
+      </p>
+    </div>
+
+    <div class="row" align="center">
       <ul class="pagination">
         {% if page.previous %}
           <li class="prev"><a href="{{page.previous.url | prepend: site.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
@@ -58,7 +58,7 @@ layout: default
 {% include comments.html %}
   </div>
 </div>
- 
+
 <hr />
 
 {% if site.related_posts %}
