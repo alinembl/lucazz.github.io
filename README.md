@@ -1,8 +1,6 @@
-# Mike Mackintosh
+# Lucas do Amaral Saboya
 
-[![https://travis-ci.org/mikemackintosh/mikemackintosh.github.io.svg](https://travis-ci.org/mikemackintosh/mikemackintosh.github.io.svg)](https://travis-ci.org/mikemackintosh/mikemackintosh.github.io)
-
-View the site at http://www.mikemackintosh.com
+View the site at http://www.lucazz.me
 
 # Publish A Page
 Using this sick little system, you can easily create a new post:
@@ -31,7 +29,7 @@ task :post do
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-  
+
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
