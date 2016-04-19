@@ -1,6 +1,6 @@
 # Permalinks
 permalink: /:title
-production_url : https://www.lucazz.me
+production_url : http://www.lucazz.me
 #relative_permalinks: true
 markdown: kramdown
 highlighter: rouge
