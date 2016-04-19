@@ -10,7 +10,7 @@ exclude: [vendor]
 # Setup
 title:            Lucas do Amaral Saboya
 tagline:          That's my page and blog :-)
-url:              https://www.lucazz.me
+url:              http://www.lucazz.me
 paginate:         20
 baseurl:          /
 author:
