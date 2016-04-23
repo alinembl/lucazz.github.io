@@ -10,8 +10,8 @@ redirect_from:
 # Lucas do Amaral Saboya
 ==================
 
-    Lucas do Amaral Saboya  |   Cell: +5585981306408    |  Twitter: @lucazz
-    Fortaleza, BR    | Web: lucazz.me |   GitHub: lucazz
+    Lucas do Amaral Saboya  |    Cell: +5585981306408    |    Twitter: @lucazz
+    Fortaleza, BR           |    Web: lucazz.me          |    GitHub: lucazz
 
 ## Skills
 
@@ -20,8 +20,8 @@ redirect_from:
 
 ## Education
 
-  * **Telecommunications Engineering Bachelor Degree** Federal Institute of Education, Science and Technology of Ceará - IFCE- Fortaleza, Brazil
-  * **Technology in Telematics** Faculdade Estácio de Sá - Fortaleza, Brazil
+  * **Telecommunications Engineering Bachelor Degree**, 2012 - Present: Federal Institute of Education, Science and Technology of Ceará - IFCE- Fortaleza, Brazil
+  * **Technology in Telematics**, 2009 - 2012: Faculdade Estácio de Sá - Fortaleza, Brazil
 
 ## Experience
 
