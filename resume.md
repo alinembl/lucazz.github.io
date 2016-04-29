@@ -11,7 +11,7 @@ redirect_from:
 ==================
 
     Lucas Saboya    |    Cell: +5585981306408    |    Twitter: @lucazz
-    Fortaleza, BR           |    Web: lucazz.me          |    GitHub: lucazz
+    Fortaleza, BR   |    Web: lucazz.me          |    GitHub: lucazz
 
 ## Skills
 
