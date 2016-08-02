@@ -27,7 +27,7 @@ redirect_from:
 
 **HE:labs** - Rio de Janeiro, RJ
 
- * 2016 - present, Site Reliability Engineering: Building CI and CD pipelines, Designing Amazon Web Services environments, Writting automation in general
+ * 2016 - present, Site Reliability Engineering: Building CI and CD pipelines, Designing Amazon Web Services environments, Writting automation in general.
 
 **iFactory Solutions** - Fortaleza, CE
 
@@ -49,9 +49,9 @@ redirect_from:
 ## Technical Experience
 
  * **OS** CentOS, Debian, FreeBSD, FreeNAS, OS X, PfSense, RHEL and Ubuntu
- * **OSS** Ansible, Apache, Bacula, Bind, Django, Docker, Git, Iptables, Kernel-Based Virtual Machine, MySQL, NGiNX, Packer, PfSense, Python, PostgreSQL, qEMU, Rails, Samba, SELinux, Spacewalk, SVN, ViM, VMWare, Xen, Zabbix e Zimbra
- * **Languages** HTML5+CSS3, LaTeX, PHP, Python, Shell Script
- * **Networking** eBGP, iBGP, NAT, OSPF, Q-in-Q, RIP, Routing, TCP/IP, Traffic Shaping, UPnP, VPN and VLAN
+ * **OSS** Ansible, Apache, Bacula, Bind, Django, Docker, Git, Iptables, Kernel-Based Virtual Machine, Kubernetes, MySQL, NGiNX, Packer, PfSense, Python, PostgreSQL, qEMU, Rails, Samba, SELinux, Spacewalk, SVN, ViM, VMWare, Xen, Zabbix e Zimbra
+ * **Languages** Golang, HTML5+CSS3, LaTeX, PHP, Python, Shell Script
+ * **Networking** BGP, NAT, OSPF, Q-in-Q, RIP, Routing, TCP/IP, Traffic Shaping, UPnP, VPN and VLAN
 
 ## Languages
 
@@ -60,6 +60,7 @@ redirect_from:
 
 ## Extension Courses
 
+ * 2016, Scalable Microservices with Kubernetes, 60h - udacity.com
  * 2015, Jenkins Bootcamp: Fully Automate Builds Through Deployment, 10h - udemy.com
  * 2015, AWS SysOps Administrator Associate Level, 10h - cloudacademy.com
  * 2015, Docker and Container Technologies, 5h - cloudacademy.com
