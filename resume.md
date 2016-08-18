@@ -22,13 +22,13 @@ redirect_from:
 
 ## Professional Work Experience
 
-**HE:labs** - Rio de Janeiro, RJ (Remotely), 01/2016 - Current
+**HE:labs** - Rio de Janeiro, RJ (Remote), 01/2016 - Current
 
  * Site Reliability Engineer, Building CI and CD pipelines using current techiques and tooling, Designing Amazon Web Services environments, Writing automation tools in Go, Python and Ruby. Identified and implement opportunities for automating existing processes in order to streamline operations and support functions.
 
 **iFactory Solutions** - Fortaleza, CE, 2015 - 2016
 
- * Support Engineer, Integrating the Amazon Web Servervice Managed Services Team, OpenText CEM Customer Support subcontractor, responsible for drafting support, deployment and maintenance best practices and automation of cloud hosted services
+ * Support Engineer, Integrating the Amazon Web Servervice (AWS) Managed Services Team, OpenText CEM Customer Support subcontractor, responsible for drafting support, deployment and maintenance best practices and automation of cloud hosted services
 
 **Instituto Federal de Educação, Ciência e Tecnologia do Ceará - IFCE** - Fortaleza, CE, 2009 - 2015
 
