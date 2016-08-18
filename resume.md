@@ -10,37 +10,33 @@ redirect_from:
 # Lucas do Amaral Saboya
 ==================
 
-    Lucas Saboya    |    Cell: +5585981306408    |    Twitter: @lucazz
+    Lucas Saboya    |    Phone: +5585981306408   |    Twitter: @lucazz
     Fortaleza, BR   |    Web: lucazz.me          |    GitHub: lucazz
 
 ## Executive Summary
 
-  * Incident Response and System Hardening on Mac OS X, CentOS and Ubuntu/Debian
+  * System Management, Incident Response and Hardening on CentOS, CoreOS, Debian, MacOS and Ubuntu
   * CI/CD pipeline Management, creating custom deployment pipeline triggered via a Git pull/merge request to production using a CI engine.
-  * Kubernetes Cluster Management, creating and managing Kubernetes Clusters, lowering deployment times from hours to minutes and providing the hability to implement multiple deployment tracks, such as Canary Deployments, Blue/Green Deployments and Rolling upgrade.
+  * Strong advocate for using the DevOps approach that spans the entire delivery pipeline to improve deployment frequency which lead to faster time to market, lower failure rate of new releases, shortened lead time between fixes and faster mean time to recovery in the event of failure.
+  * Kubernetes Cluster Management, creating and managing Kubernetes Clusters, lowering deployment times from hours to minutes and providing the ability to implement multiple deployment tracks, such as Canary Deployments, Blue/Green Deployments and Rolling Upgrades.
 
-## Experience
+## Professional Work Experience
 
-**HE:labs** - Rio de Janeiro, RJ (Remotely)
+**HE:labs** - Rio de Janeiro, RJ (Remotely), 01/2016 - Current
 
- * 2016 - present, Site Reliability Engineering: Building CI and CD pipelines, Designing Amazon Web Services environments, Writing automation tools in Go, Python and Ruby.
+ * Site Reliability Engineer, Building CI and CD pipelines using current techiques and tooling, Designing Amazon Web Services environments, Writing automation tools in Go, Python and Ruby. Identified and implement opportunities for automating existing processes in order to streamline operations and support functions.
 
-**iFactory Solutions** - Fortaleza, CE
+**iFactory Solutions** - Fortaleza, CE, 2015 - 2016
 
- * 2015 - 2016, Support Engineer: Integrating the Amazon Web Servervice Managed Services Team, OpenText CEM Customer Support subcontractor, responsible for drafting support, deployment and maintenance best practices and automation of cloud hosted services
+ * Support Engineer, Integrating the Amazon Web Servervice Managed Services Team, OpenText CEM Customer Support subcontractor, responsible for drafting support, deployment and maintenance best practices and automation of cloud hosted services
 
-**Instituto Federal de Educação, Ciência e Tecnologia do Ceará - IFCE** - Fortaleza, CE
+**Instituto Federal de Educação, Ciência e Tecnologia do Ceará - IFCE** - Fortaleza, CE, 2009 - 2015
 
- * 2015 - 2015, Computer Networks and Security Analyst: ntegrating the Computer Security Incident Response Team - CSIRT, Mitigating IFCE's network security issues, Managing the Rectory firewalls, Providing level II networking and security support to other campuses tech staff, Supervisioning IFCE's IPv6 networks deployment
- * 2012 - 2014, Support Analyst: Managing IFCE's Rectory and all campuses local network and Linux Servers
- * 2012 - 2014, DevOps Engineer: Helping and providing technical support on IT systems deploy in all campuses and Rectory.
- * 2009 - 2012, Analista de Suporte Junior: Managing IFCE's Fortaleza Campus, Aldeota Annex and Rectory local network and Linux Servers.
- * 2008 - 2009, Webmaster: Maintaining the website up-to-date.
-
-**Telecomunication Engineering Academic Centre** - Fortaleza, CE
-
- * 2013 - 2014, Diretor de Estudos, Ensino, Pesquisa e Inovação: Leading a team responsible for management and maintenance of extension courses, workshops, study groups, teaching promotion and academic research within telecommunications engineering student's community.
- * 2012 - 2013, Advisor: Developing projects on the Academic Events and Studies, Learning, Research and Inovations Vice Presidency
+ * Computer Networks and Security Analyst, ntegrating the Computer Security Incident Response Team - CSIRT, Mitigating IFCE's network security issues, Managing the Rectory firewalls, Providing level II networking and security support to other campuses tech staff, Supervisioning IFCE's IPv6 networks deployment
+ * Support Analyst, Managing IFCE's Rectory and all campuses local network and Linux Servers
+ * Operations Engineer, Deploying and providing technical support on IT systems deploy in all campuses and Rectory.
+ * Jr. Support Analyst, Managing IFCE's Fortaleza Campus, Aldeota Annex and Rectory local network and Linux Servers.
+ * Webmaster, Maintaining the website up-to-date.
 
 ## Technical Experience
 
