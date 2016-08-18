@@ -10,8 +10,8 @@ redirect_from:
 # Lucas do Amaral Saboya
 ==================
 
-    Lucas Saboya    |    Phone: +5585981306408   |    Twitter: @lucazz
-    Fortaleza, BR   |    Web: lucazz.me          |    GitHub: lucazz
+    Lucas Saboya    |    Phone: +5585981306408   |    Twitter: [@lucazz](https://twitter.com/lucazz)
+    Fortaleza, BR   |    Web: [lucazz.me](http://lucazz.me)          |    GitHub: [lucazz](https://github.com/lucazz)
 
 ## Executive Summary
 
