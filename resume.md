@@ -13,19 +13,15 @@ redirect_from:
     Lucas Saboya    |    Cell: +5585981306408    |    Twitter: @lucazz
     Fortaleza, BR   |    Web: lucazz.me          |    GitHub: lucazz
 
-## Skills
+## Executive Summary
 
   * Incident Response and System Hardening on Mac OS X, CentOS and Ubuntu/Debian
-  * Several years of daily experience with nginx and Apache
-
-## Education
-
-  * **Telecommunications Engineering Bachelor Degree**, 2012 - Present: Federal Institute of Education, Science and Technology of Ceará - IFCE- Fortaleza, Brazil
-  * **Technology in Telematics**, 2009 - 2012: Faculdade Estácio de Sá - Fortaleza, Brazil
+  * CI/CD pipeline Management, creating custom deployment pipeline trigered via a Github pull request to production using CircleCI and/or Jenkins
+  * Kubernetes Cluster Management, creating and managing Kubernetes Clusters, lowering deployment times from hours to minutes and providing the hability to implement multiple deployment tracks, such as Canary Deployments, Blue/Green Deployments and Rolling upgrade.
 
 ## Experience
 
-**HE:labs** - Rio de Janeiro, RJ
+**HE:labs** - Rio de Janeiro, RJ (Remotely)
 
  * 2016 - present, Site Reliability Engineering: Building CI and CD pipelines, Designing Amazon Web Services environments, Writting automation in general.
 
@@ -52,6 +48,11 @@ redirect_from:
  * **OSS** Ansible, Apache, Bacula, Bind, Django, Docker, Git, Iptables, Kernel-Based Virtual Machine, Kubernetes, MySQL, NGiNX, Packer, PfSense, Python, PostgreSQL, qEMU, Rails, Samba, SELinux, Spacewalk, SVN, ViM, VMWare, Xen, Zabbix e Zimbra
  * **Languages** Golang, HTML5+CSS3, LaTeX, PHP, Python, Shell Script
  * **Networking** BGP, NAT, OSPF, Q-in-Q, RIP, Routing, TCP/IP, Traffic Shaping, UPnP, VPN and VLAN
+
+## Education
+
+  * **Telecommunications Engineering Bachelor Degree**, 2012 - Present: Federal Institute of Education, Science and Technology of Ceará - IFCE- Fortaleza, Brazil
+  * **Technology in Telematics**, 2009 - 2012: Faculdade Estácio de Sá - Fortaleza, Brazil
 
 ## Languages
 
