@@ -16,14 +16,14 @@ redirect_from:
 ## Executive Summary
 
   * Incident Response and System Hardening on Mac OS X, CentOS and Ubuntu/Debian
-  * CI/CD pipeline Management, creating custom deployment pipeline trigered via a Github pull request to production using CircleCI and/or Jenkins
+  * CI/CD pipeline Management, creating custom deployment pipeline triggered via a Git pull/merge request to production using a CI engine.
   * Kubernetes Cluster Management, creating and managing Kubernetes Clusters, lowering deployment times from hours to minutes and providing the hability to implement multiple deployment tracks, such as Canary Deployments, Blue/Green Deployments and Rolling upgrade.
 
 ## Experience
 
 **HE:labs** - Rio de Janeiro, RJ (Remotely)
 
- * 2016 - present, Site Reliability Engineering: Building CI and CD pipelines, Designing Amazon Web Services environments, Writting automation in general.
+ * 2016 - present, Site Reliability Engineering: Building CI and CD pipelines, Designing Amazon Web Services environments, Writing automation tools in Go, Python and Ruby.
 
 **iFactory Solutions** - Fortaleza, CE
 
