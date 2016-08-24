@@ -32,7 +32,7 @@ redirect_from:
 
 **Instituto Federal de Educação, Ciência e Tecnologia do Ceará - IFCE** - Fortaleza, CE, 2009 - 2015
 
- * Computer Networks and Security Analyst, ntegrating the Computer Security Incident Response Team - CSIRT, Mitigating IFCE's network security issues, Managing the Rectory firewalls, Providing level II networking and security support to other campuses tech staff, Supervisioning IFCE's IPv6 networks deployment
+ * Computer Networks and Security Analyst, Integrating the Computer Security Incident Response Team - CSIRT, Mitigating IFCE's network security issues, Managing the Rectory firewalls, Providing level II networking and security support to other campuses tech staff, Supervisioning IFCE's IPv6 networks deployment
  * Support Analyst, Managing IFCE's Rectory and all campuses local network and Linux Servers
  * Operations Engineer, Deploying and providing technical support on IT systems deploy in all campuses and Rectory.
  * Jr. Support Analyst, Managing IFCE's Fortaleza Campus, Aldeota Annex and Rectory local network and Linux Servers.
