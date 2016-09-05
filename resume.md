@@ -22,7 +22,11 @@ redirect_from:
 
 ## Professional Work Experience
 
-**HE:labs** - Rio de Janeiro, RJ (Remote), 01/2016 - Current
+**Anki** - San Francisco, CA (Remote), 09/2016 - Current
+
+ * Site Reliability Engineer, Building and maintaing Anki's CI and CD pipelines using current techiques and tooling, Writing automation tools in Go and Python.
+
+**HE:labs** - Rio de Janeiro, RJ (Remote), 01/2016 - 09/2016
 
  * Site Reliability Engineer, Building CI and CD pipelines using current techiques and tooling, Designing Amazon Web Services environments, Writing automation tools in Go, Python and Ruby. Identified and implement opportunities for automating existing processes in order to streamline operations and support functions.
 
